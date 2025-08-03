@@ -1,5 +1,5 @@
 interface TodoListProps {
-  todo: {
+  todo?: {
     id: number
     title: string
     completed: boolean
@@ -11,7 +11,7 @@ const TodoList = ({ todo }: TodoListProps) => {
 
   return todo ? (
     <div>
-      <h1>TodoList</h1>
+      <h1>HOC2</h1>
       <p>{id}</p>
       <p>{title}</p>
     </div>
