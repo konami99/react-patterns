@@ -1,4 +1,3 @@
-import { useState } from "react"
 import "./App.css"
 import type Position from "./types/position"
 import MouseTracker from "./components/MouseTracker"
